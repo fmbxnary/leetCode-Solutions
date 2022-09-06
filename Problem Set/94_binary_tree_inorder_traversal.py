@@ -13,7 +13,6 @@ class Solution:
             if curr:
                 stack.append(curr)
                 curr = curr.left
-
             elif stack:
                 s = stack.pop()
                 l.append(s.val)
